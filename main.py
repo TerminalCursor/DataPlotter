@@ -26,4 +26,4 @@ with open("data.csv", "r") as data_file:
 for i in range(len(Ycol)):
     plt.plot(X, Y[i])
 plt.legend(Ycols)
-plt.savefig("/mnt/c/Users/christian-cunningham/Downloads/image.png")
+plt.savefig("image.png")
